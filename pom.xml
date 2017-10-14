@@ -63,6 +63,7 @@
                             <configOptions>
                                 <java8>true</java8>
                                 <dateLibrary>java8</dateLibrary>
+                                <useBeanValidation>false</useBeanValidation>
                                 <basePackage>com.github.wjam.issue.api</basePackage>
                                 <beanValidation>false</beanValidation>
                                 <supportingFiles>false</supportingFiles>

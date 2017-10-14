@@ -1,0 +1,18 @@
+swagger: 2.0
+info:
+  description: Example of issue with spring-cloud and Java 8
+  version: 1.0
+  title: Issue example
+basePath: /api
+schemes:
+  - http
+paths:
+  /api/example:
+    get:
+      summary: Example API
+      operationId: get
+      responses:
+        200:
+          description: Success
+          schema:
+            type: string
